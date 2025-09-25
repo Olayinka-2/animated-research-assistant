@@ -2,16 +2,18 @@
 
 import { motion } from "framer-motion";
 import { Linkedin, Twitter, Github, Mail } from "lucide-react";
+import CEO from "../../public/CEO.jpg";
+import CTO from "../../public/CTO.jpg";
+import HOM from "../../public/HOM.jpg";
 import Abu from "../../public/Abu.jpg";
-import Chan from "../../public/Chan.jpg";
 
 const teamMembers = [
   {
-    name: "Abu Johnson",
+    name: "Samuel Adeniyi",
     role: "CEO & Founder",
     bio: "Visionary leader with 10+ years in software development and business strategy",
     // image: "/placeholder.svg?height=300&width=300",
-    image: Abu,
+    image: CEO,
     social: {
       linkedin: "#",
       twitter: "#",
@@ -20,10 +22,10 @@ const teamMembers = [
     },
   },
   {
-    name: "Sarah Chen",
+    name: "Nurudeen Aliyu",
     role: "CTO",
     bio: "Technical architect specializing in scalable systems and emerging technologies",
-    image:Chan,
+    image:CTO,
     // image: "/placeholder.svg?height=300&width=300",
     social: {
       linkedin: "#",
@@ -33,7 +35,7 @@ const teamMembers = [
     },
   },
   {
-    name: "Michael Rodriguez",
+    name: "Abu Lolo",
     role: "Head of Development",
     bio: "Full-stack expert leading our development teams with passion for clean code",
     // image: "/placeholder.svg?height=300&width=300",
@@ -50,7 +52,7 @@ const teamMembers = [
     role: "Head of Design",
     bio: "Creative director crafting beautiful and intuitive user experiences",
     // image: "/placeholder.svg?height=300&width=300",
-    image: Abu,
+    image: HOM,
     social: {
       linkedin: "#",
       twitter: "#",

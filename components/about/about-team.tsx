@@ -35,7 +35,7 @@ const teamMembers = [
     },
   },
   {
-    name: "Abu Lolo",
+    name: "Abubakar Bello",
     role: "Head of Development",
     bio: "Full-stack expert leading our development teams with passion for clean code",
     // image: "/placeholder.svg?height=300&width=300",

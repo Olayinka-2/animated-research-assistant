@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion";
 import { Linkedin, Twitter, Github, Mail } from "lucide-react";
-import CEO from "../../public/CEO.jpg";
+import SAM from "../../public/SAM.jpg";
 import CTO from "../../public/CTO.jpg";
-import HOM from "../../public/HOM.jpg";
+import HOG from "../../public/HOG.jpg";
 import Abu from "../../public/Abu.jpg";
 
 const teamMembers = [
@@ -13,12 +13,25 @@ const teamMembers = [
     role: "CEO & Founder",
     bio: "Visionary leader with 10+ years in software development and business strategy",
     // image: "/placeholder.svg?height=300&width=300",
-    image: CEO,
+    image: SAM,
     social: {
       linkedin: "#",
       twitter: "#",
       github: "#",
       email: "abu@binarify.com",
+    },
+  },
+  {
+    name: "Abubakar Bello",
+    role: "COO & Co-Founder",
+    bio: "Full-stack expert leading our development teams with passion for clean code",
+    // image: "/placeholder.svg?height=300&width=300",
+    image: Abu,
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      github: "#",
+      email: "michael@binarify.com",
     },
   },
   {
@@ -35,24 +48,24 @@ const teamMembers = [
     },
   },
   {
-    name: "Abubakar Bello",
-    role: "Head of Development",
-    bio: "Full-stack expert leading our development teams with passion for clean code",
+    name: "Emily Watson",
+    role: "Head of Growth",
+    bio: "Creative director crafting beautiful and intuitive user experiences",
     // image: "/placeholder.svg?height=300&width=300",
-    image: Abu,
+    image: HOG,
     social: {
       linkedin: "#",
       twitter: "#",
       github: "#",
-      email: "michael@binarify.com",
+      email: "emily@binarify.com",
     },
   },
   {
     name: "Emily Watson",
-    role: "Head of Design",
+    role: "Head of Marketing",
     bio: "Creative director crafting beautiful and intuitive user experiences",
-    // image: "/placeholder.svg?height=300&width=300",
-    image: HOM,
+    image: "/placeholder.svg?height=300&width=300",
+    // image: HOG,
     social: {
       linkedin: "#",
       twitter: "#",

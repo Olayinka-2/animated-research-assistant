@@ -48,8 +48,8 @@ const teamMembers = [
     },
   },
   {
-    name: "Emily Watson",
-    role: "Head of Growth",
+    name: "Nelson Ayaebene",
+    role: "Head of Marketing",
     bio: "Creative director crafting beautiful and intuitive user experiences",
     // image: "/placeholder.svg?height=300&width=300",
     image: HOG,
@@ -62,7 +62,7 @@ const teamMembers = [
   },
   {
     name: "Emily Watson",
-    role: "Head of Marketing",
+    role: "Head of Growth",
     bio: "Creative director crafting beautiful and intuitive user experiences",
     // image: "/placeholder.svg?height=300&width=300",
     image: HOG,

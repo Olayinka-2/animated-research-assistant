@@ -64,8 +64,8 @@ const teamMembers = [
     name: "Emily Watson",
     role: "Head of Marketing",
     bio: "Creative director crafting beautiful and intuitive user experiences",
-    image: "/placeholder.svg?height=300&width=300",
-    // image: HOG,
+    // image: "/placeholder.svg?height=300&width=300",
+    image: HOG,
     social: {
       linkedin: "#",
       twitter: "#",
